@@ -18,6 +18,8 @@ Before you can use this function, you must have the following:
 3. Replace the placeholder values with your own connection string and container names. Replace the path according to yours. 
 4. Run the function locally with the command `func start`
 
+*Disclaimer:* Remember to adapt the script according to your XML structure. 
+
 ## Deployment
 
 To deploy the function to Azure, you can follow these steps:
