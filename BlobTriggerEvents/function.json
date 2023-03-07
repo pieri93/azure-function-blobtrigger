@@ -1,0 +1,19 @@
+{
+    "scriptFile": "__init__.py", 
+    "bindings": [
+      {
+        "name": "blobin",
+        "type": "blobTrigger",
+        "direction": "in",
+        "path": "Events/{blobname}.xml",
+        "connection": "datalake_STORAGE"
+      },
+      {
+        "type": "blob",
+        "direction": "out",
+        "name": "blobout",
+        "path": "TransformedEvents/{blobname}.json",
+        "connection": "datalake_STORAGE"
+      }
+    ]
+}
